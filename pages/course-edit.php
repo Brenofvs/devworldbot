@@ -18,7 +18,6 @@ if (isset($_GET['postId'])) {
     $postId = '';
 }
 $postData = filter_input_array(INPUT_POST, FILTER_DEFAULT);
-var_dump($postData);
 $postUpdt = $model->findById($postId);
 if ($postData) {
     if (!empty($postData["id_categoria"]) || !empty($postData["id_subcategoria"]) || !empty($postData["nome"]) || !empty($postData["message_id"])) {
