@@ -1,3 +1,3 @@
 # devworldbot
 
-CRUD em PHP para cadastro de cursos organizados por categoria e subcategoria.
+CRUD em PHP para cadastro de conteúdos organizados por categoria e subcategoria.
